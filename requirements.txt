@@ -1,0 +1,22 @@
+# RAG Demo — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# LangChain core + integrations
+langchain
+langchain-community
+langchain-huggingface
+langchain-ollama
+langchain-text-splitters   # RecursiveCharacterTextSplitter (split from langchain core)
+
+# Vector store
+faiss-cpu
+
+# Embedding model (sentence-transformers)
+sentence-transformers
+
+# Document loaders
+pymupdf          # .pdf  (PyMuPDF)
+unstructured     # .md   (UnstructuredMarkdownLoader)
+python-docx      # .docx (used by Docx2txtLoader)
+docx2txt         # .docx (text extraction)
+# .doc (legacy binary) additionally requires LibreOffice — see README
